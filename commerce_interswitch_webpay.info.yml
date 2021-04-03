@@ -1,0 +1,8 @@
+name: 'Commerce Interswitch WebPay'
+type: module
+description: 'Commerce Interswitch WebPay integration payment gateway'
+core: 8.x
+package: 'Commerce (contrib)'
+dependencies:
+  - commerce:commerce_payment
+core_version_requirement: '^8 || ^9'

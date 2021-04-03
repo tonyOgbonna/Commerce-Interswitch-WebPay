@@ -1,0 +1,15 @@
+commerce_payment.commerce_payment_gateway.plugin.interswitch_webpay_redirect:
+  type: commerce_payment_gateway_configuration
+  mapping:
+    mac_key:
+      type: string
+      label: 'MAC Key'
+    product_id:
+      type: string
+      label: 'Product ID'
+    pay_item_id:
+      type: string
+      label: 'Pay Item ID'
+    currency_code:
+      type: string
+      label: 'Currency Code'
